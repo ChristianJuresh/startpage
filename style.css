@@ -1,0 +1,54 @@
+
+
+
+@font-face {
+    font-family: "Roboto Mono";
+    src: url("fonts/roboto-mono-medium.ttf");   
+}
+
+:root {
+    --font: "Roboto Mono";
+    --background: #ffffff;
+    --foreground: #000000;
+}
+
+html { 
+    background-color: var(--background)  
+}
+
+body {
+   color: var(--foreground);
+    font-family: var(--font);
+}
+
+.container {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.prompt {
+    
+}
+
+.neofetch {
+
+}
+
+.logo {
+    font-size: small;
+    letter-spacing: -2.2px;
+    line-height: 0px;
+    float:left
+}
+
+
+.neofetch-list-container {
+    float:right;
+}
+
+.neofetch-list {
+    list-style: none
+}
+
